@@ -21,10 +21,14 @@ Perfect for forms requiring document uploads, CV submissions, project files, etc
 2. Upload via WordPress admin: `Plugins → Add New → Upload`.
 3. Activate the plugin. You're done!
 
-## 📸 Preview
-*Easy-to-use file preview and removal:*
+## 📸 Before & After 
 
-![Plugin preview](link-naar-screenshot-hier.png)
+**🔴 Before:** Default Elementor file upload  
+![Before plugin](https://tunity.be/live/before.png)
+
+**🟢 After:** With Elementor Enhanced Multi Upload  
+![After plugin](https://tunity.be/live/After.png)
+
 
 ## 🚧 Requirements
 - WordPress 5.5 or newer
