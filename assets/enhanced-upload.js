@@ -32,15 +32,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         align-items: center;
                         padding: 6px 10px;
                         margin: 5px;
-                        background-color: #f5f5f5;
+                        background-color: var(--white);
                         border-radius: 4px;
-                        border: 1px solid #ddd;
+                        border: 1px solid var(--neutral-light);
                         font-size: 14px;
                     `;
 
                     fileItem.innerHTML = `
                         <span>${file.name}</span>
-                        <span style="cursor:pointer; color:red; margin-left:8px;">&times;</span>
+                        <span style="cursor:pointer; color:var(--main); margin-left:8px;">&times;</span>
                     `;
 
                     fileItem.querySelector('span:last-child').addEventListener('click', () => {
